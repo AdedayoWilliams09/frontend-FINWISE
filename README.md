@@ -125,7 +125,7 @@ This project uses Tailwind CSS 4.2.1+ with the new Vite plugin integration.
 - Check package.json for required dependencies
 
 ### Related Repositories
-- [Finwise Backend](https://github.com/your-username/finwise-backend) - Backend API server
+- [Finwise Backend](https://github.com/AdedayoWilliams09/backend-FINWISE) - Backend API server
 
  License
 MIT License - see LICENSE file for details
