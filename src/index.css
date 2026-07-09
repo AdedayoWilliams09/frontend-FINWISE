@@ -1,0 +1,41 @@
+/* FILE: finwise/frontend/src/index.css */
+/* LINE: Entire file replaced */
+
+/*  Child Explanation:
+   This is where we tell the app "Use Tailwind CSS for styling!"
+   It's like putting on a uniform so everyone looks consistent. */
+
+/*  Technical Explanation:
+   @import 'tailwindcss' imports the Tailwind CSS framework.
+   This line must be at the top of your CSS file for Tailwind to work. */
+@import 'tailwindcss';
+
+/*  Child Explanation:
+   These are some extra style rules for the whole app.
+   They make sure the app looks good on all screen sizes. */
+
+/*  Technical Explanation:
+   Global styles that apply to the entire application.
+   Base styles are applied through Tailwind but we add custom ones here. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+#root {
+  min-height: 100vh;
+}
