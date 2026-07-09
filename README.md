@@ -30,7 +30,7 @@ This is the React frontend for the Finwise Expense Tracker application. In this 
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/finwise-frontend.git
+git clone https://github.com/AdedayoWilliams09/frontend-FINWISE.git
 cd finwise-frontend
 
 2. Install dependencies: npm install
